@@ -151,6 +151,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Toast.makeText(this, "Can't create disctory to save your image", Toast.LENGTH_LONG).show();
                 return;
             }
+            //comt
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd_HHmmss");
             String date = simpleDateFormat.format(new Date());
             String name = "Img" + date + ".jpg";
